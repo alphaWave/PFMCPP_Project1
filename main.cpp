@@ -76,7 +76,7 @@ robot.fireRocketLauncher();
 ball.rollDownhill();
 //  action 2:   the ball bursts (e.g. due to being pumped with too much air)
 ball.burst();
-//  action 3:   the ball hits a wall  
+//  action 3:   the ball hits a wall   
 ball.hitWall()
  
 //  4)
