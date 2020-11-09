@@ -140,7 +140,7 @@ clock.soundAlarm();
 //  action 2:   the clock moves its hands to the 12:00 position (e.g. when a Reset-button is pressed)
 clock.moveHandsTo12oClockPosition();
 //  action 3:   the clock flashes its low battery light
-clock.flashLowBatteryLight();
+clock.flashLowBatteryLight(); 
 
 
 #endif
