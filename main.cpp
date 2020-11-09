@@ -72,7 +72,7 @@ robot.fireRocketLauncher();
  
 //  3)
 //  Noun:       ball
-//  action 1:   the ball rolls downhill   
+//  action 1:   the ball rolls downhill    
 ball.rollDownhill();
 //  action 2:   the ball bursts (e.g. due to being pumped with too much air)
 ball.burst();
