@@ -52,85 +52,95 @@ arm.rotateCounterClockwise();           // 4) demonstrates CamelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       truck
+//  action 1:   the truck accelerates
+truck.accelerate();
+//  action 2:   the truck transports lumber
+truck.transportLumber();
+//  action 3:   the truck drives over an obstacle
+truck.driveOverObstacle();
  
 //  2)
-//  Noun:
-//  action 1:
+//  Noun:       robot
+//  action 1:   the robot tilts its torso to the left
+robot.tiltTorsoLeft();
+//  action 2:   the robot shuts down (e.g. due to overheating)
+robot.shutDown();
+//  action 3:   the robot fires its integrated rocket launcher
+robot.fireRocketLauncher();
 
-//  action 2:
-
-//  action 3:
  
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       ball
+//  action 1:   the ball rolls downhill   
+ball.rollDownhill();
+//  action 2:   the ball bursts (e.g. due to being pumped with too much air)
+ball.burst();
+//  action 3:   the ball hits a wall  
+ball.hitWall()
  
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       blanket
+//  action 1:   the blanket covers a person
+blanket.coverPerson();
+//  action 2:   the blanket embellishes a room
+blanket.embellishRoom();
+//  action 3:   the blanket provides warmth
+blanket.provideWarmth();
  
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       speaker
+//  action 1:   the speaker moves its cone outward
+speaker.moveConeOutward();
+//  action 2:   the speaker shows its volume level (e.g. with an integrated LED)
+speaker.showVolumeLevel();
+//  action 3:   the speaker plays its calibration tone (e.g. for calibrating its frequency response to a particular room)
+speaker.playCalibrationTone();
  
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       duck
+//  action 1:   the duck quacks
+duck.quack();
+//  action 2:   the duck follows its mother duck
+duck.followMotherDuck();
+//  action 3:   the duck eats bread
+duck.eatBread();
  
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       crane
+//  action 1:   the crane pulls up a weight
+crane.pullUpWeight();
+//  action 2:   the crane lowers its hook
+crane.lowerHook();
+//  action 3:   the crane tips over
+crane.tipOver();
  
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:       hamster
+//  action 1:   the hamster runs on its wheel
+hamster.runOnWheel();
+//  action 2:   the hamster squals
+hamster.squeal();
+//  action 3:   the hamster puts food into its cheek pouch
+hamster.putFoodInCheekPouch();
  
-//  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  9)          
+//  Noun:       rocketFirstStage
+//  action 1:   the rocket's first stage generates propulsion
+rocketFirstStage.generatePropulsion();
+//  action 2:   the rocket's first stage detonates its charges to separate from the rest of the rocket
+rocketFirstStage.detonateCharges();
+//  action 3:   the rocket's first stage accelerates the rocket
+rocketFirstStage.accelerateRocket();
  
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
- 
+//  Noun:       clock
+//  action 1:   the clock sounds the alarm
+clock.soundAlarm();
+//  action 2:   the clock moves its hands to the 12:00 position (e.g. when a Reset-button is pressed)
+clock.moveHandsTo12oClockPosition();
+//  action 3:   the clock flashes its low battery light
+clock.flashLowBatteryLight();
 
 
 #endif
