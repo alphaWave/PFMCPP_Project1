@@ -72,11 +72,11 @@ robot.fireRocketLauncher();
  
 //  3)
 //  Noun:       ball
-//  action 1:   the ball rolls downhill    
+//  action 1:   the ball rolls downhill   
 ball.rollDownhill();
 //  action 2:   the ball bursts (e.g. due to being pumped with too much air)
 ball.burst();
-//  action 3:   the ball hits a wall   
+//  action 3:   the ball hits a wall  
 ball.hitWall()
  
 //  4)
@@ -125,13 +125,13 @@ hamster.squeal();
 hamster.putFoodInCheekPouch();
  
 //  9)          
-//  Noun:       rocket
-//  action 1:   the rocket generates propulsion
-rocket.generatePropulsion();
-//  action 2:   the rocket jettisons its first stage 
-rocket.jettisonFirstStage();
-//  action 3:   the rockets accelerates skywards
-rocket.accelerateSkywards();
+//  Noun:       rocketFirstStage
+//  action 1:   the rocket's first stage generates propulsion
+rocketFirstStage.generatePropulsion();
+//  action 2:   the rocket's first stage detonates its charges to separate from the rest of the rocket
+rocketFirstStage.detonateCharges();
+//  action 3:   the rocket's first stage accelerates the rocket
+rocketFirstStage.accelerateRocket();
  
 //  10)
 //  Noun:       clock
@@ -140,7 +140,7 @@ clock.soundAlarm();
 //  action 2:   the clock moves its hands to the 12:00 position (e.g. when a Reset-button is pressed)
 clock.moveHandsTo12oClockPosition();
 //  action 3:   the clock flashes its low battery light
-clock.flashLowBatteryLight(); 
+clock.flashLowBatteryLight();
 
 
 #endif
